@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.gkpoter.maptt.ui.fragment.ClassFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="大一课程:"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+            <com.gkpoter.maptt.view.ScrollViewGridView
+                android:numColumns="3"
+                android:layout_width="match_parent"
+                android:id="@+id/gradView"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#e1e0e0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="大二课程:"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+            <com.gkpoter.maptt.view.ScrollViewGridView
+                android:numColumns="3"
+                android:layout_width="match_parent"
+                android:id="@+id/gradView1"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#e1e0e0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="大三课程:"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+            <com.gkpoter.maptt.view.ScrollViewGridView
+                android:numColumns="3"
+                android:layout_width="match_parent"
+                android:id="@+id/gradView2"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#e1e0e0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="大四课程:"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+            <com.gkpoter.maptt.view.ScrollViewGridView
+                android:numColumns="3"
+                android:layout_width="match_parent"
+                android:id="@+id/gradView3"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

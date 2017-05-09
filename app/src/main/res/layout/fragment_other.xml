@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.gkpoter.maptt.ui.fragment_video.OtherFragment">
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/other_button"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:layout_below="@+id/other_button"
+        android:id="@+id/other_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"/>
+
+</RelativeLayout>
